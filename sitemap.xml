@@ -10,6 +10,12 @@
     <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/images.html</loc>
+  </url>
+  <url>
     <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/index.html</loc>
   </url>
   <url>
@@ -22,10 +28,25 @@
     <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/next-episode.html</loc>
   </url>
   <url>
     <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/profiles.html</loc>
@@ -34,7 +55,16 @@
     <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/reference.html</loc>
   </url>
   <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/next-episode.html</loc>
   </url>
   <url>
     <loc>https://bpopescu-qutech.github.io/carpentries-workbench-test2/profiles.html</loc>
