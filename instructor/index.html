@@ -219,7 +219,25 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="next-episode.html">2. next-episode</a>
+        <a href="episode01.html">2. Automated Version Control</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="next-episode.html">3. next-episode</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="credits.html">4. credits</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -276,8 +294,53 @@
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Schedule</h1>
       
 
-<p>This is a new lesson built with <a href="https://carpentries.github.io/sandpaper-docs" class="external-link">The Carpentries
-Workbench</a>.</p>
+<p>Jimmy and Alfredo have been hired by Ratatouille restaurant (a
+special restaurant from Euphoric State University) to investigate if it
+is possible to make the best recipes archive ever. They want to be able
+to work on indexing the prices at the same time, but they have run into
+problems doing this in the past. If they take turns, each one will spend
+a lot of time waiting for the other to finish, but if they work on their
+own copies and email changes back and forth things will be lost,
+overwritten, or duplicated.</p>
+<p>A colleague suggests using <a href="reference.html#version-control">version control</a> to manage
+their work. Version control is better than mailing files back and
+forth:</p>
+<ul><li><p>Nothing that is committed to version control is ever lost, unless
+you work really, really hard at losing it. Since all old versions of
+files are saved, it’s always possible to go back in time to see exactly
+who wrote what on a particular day, or what version of a program was
+used to generate a particular set of results.</p></li>
+<li><p>As we have this record of who made what changes when, we know who
+to ask if we have questions later on, and, if needed, revert to a
+previous version, much like the “undo” feature in an editor.</p></li>
+<li><p>When several people collaborate in the same project, it’s
+possible to accidentally overlook or overwrite someone’s changes. The
+version control system automatically notifies users whenever there’s a
+conflict between one person’s work and another’s.</p></li>
+</ul><p>Teams are not the only ones to benefit from version control: lone
+researchers can benefit immensely. Keeping a record of what was changed,
+when, and why is extremely useful for all researchers if they ever need
+to come back to the project later on (e.g., a year later, when memory
+has faded).</p>
+<p>Version control is the lab notebook of the digital world: it’s what
+professionals use to keep track of what they’ve done and to collaborate
+with other people. Every large software development project relies on
+it, and most programmers use it for their small jobs as well. And it
+isn’t just for software: books, papers, small data sets, and anything
+that changes over time or needs to be shared can and should be stored in
+a version control system.</p>
+<div id="prerequisites" class="callout prereq">
+<div class="callout-square">
+<i class="callout-icon" data-feather="check"></i>
+</div>
+<div id="prerequisites" class="callout-inner">
+<h3 class="callout-title">Prerequisites</h3>
+<div class="callout-content">
+<p>In this lesson we use Git from the Unix Shell. Some previous
+experience with the shell is expected, <em>but isn’t mandatory</em>.</p>
+</div>
+</div>
+</div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
@@ -298,13 +361,30 @@ How do you write a lesson using R Markdown and <a href="https://carpentries.gith
 <span class="visually-hidden">Duration: </span>00h 12m
 </td>
 <td>
- 2. <a href="next-episode.html">next-episode</a>
+ 2. <a href="episode01.html">Automated Version Control</a>
+</td>
+<td>
+What is version control and why should I use it?
+</td>
+</tr><tr><td>
+<span class="visually-hidden">Duration: </span>00h 17m
+</td>
+<td>
+ 3. <a href="next-episode.html">next-episode</a>
 </td>
 <td>
 How do you write a lesson using R Markdown and <a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?
 </td>
 </tr><tr><td>
-<span class="visually-hidden">Duration: </span>00h 24m
+<span class="visually-hidden">Duration: </span>00h 29m
+</td>
+<td>
+ 4. <a href="credits.html">credits</a>
+</td>
+<td>
+</td>
+</tr><tr><td>
+<span class="visually-hidden">Duration: </span>00h 39m
 </td>
 <td>
 Finish
@@ -349,7 +429,7 @@ e.g. online setup) in the solutions blocks.</p>
   Windows
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Use PuTTY</p>
 </div>
@@ -363,7 +443,7 @@ e.g. online setup) in the solutions blocks.</p>
   MacOS
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Use Terminal.app</p>
 </div>
@@ -377,7 +457,7 @@ e.g. online setup) in the solutions blocks.</p>
   Linux
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>Use Terminal</p>
 </div>
@@ -437,8 +517,8 @@ any links that you are not going to use.
   "url": "https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/index.html",
   "identifier": "https://bpopescu-qutech.github.io/carpentries-workbench-test2/instructor/index.html",
   "dateCreated": "2024-10-23",
-  "dateModified": "2024-10-23",
-  "datePublished": "2024-10-23"
+  "dateModified": "2024-10-24",
+  "datePublished": "2024-10-24"
 }
 
   </script><script>
